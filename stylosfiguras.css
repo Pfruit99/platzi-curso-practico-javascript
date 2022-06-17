@@ -1,0 +1,159 @@
+:root{
+    --darkskyblue:#74b3ce;
+    --steelteal:#508991;
+    --prussianblue:#172a3a;
+    --warmblack:#1f103b;
+    --mountainmeadow:#09bc8a;
+}
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;    
+    font-family: 'Tiro Gurmukhi', serif;
+    background-image: url(./assets/img/galaxyandstars.jpg);
+    background-size:auto;
+    background-position: absolute;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.Header{
+    display: inline-block;
+    width: 800px;
+    height: 150px;
+    margin: 12px 32px;
+    margin-top: 10px;
+    padding: 16px 16px;
+    padding-top: 20px;
+}
+
+
+.Header-title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    margin: 37px 30px;
+    margin-top: 28px;
+    padding: 12px 197px;
+    align-self: center;
+    font-weight: 600;
+    color: var(--steelteal);
+}
+
+.Header-description{
+    font-size: 16.4px;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: dashed;
+    color: var(--steelteal);
+}
+
+
+.figure{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    justify-content: center;
+}
+
+
+
+
+.figure-container{
+    display: inline-block;
+    background: var(--warmblack);  
+    width: 600px;
+    height: 190px;
+    text-align: center;
+    position: relative;
+    border-radius: 15px;
+    border-bottom: 12px;
+    border-top: 40px;
+    margin: 12px 111px
+}
+
+
+.figure-title {
+    font-size: medium;
+    width: 400px;
+    padding: 12px;
+    height: 50px;
+    margin: 10px 109px;
+    padding-bottom: 36px;
+    color: var(--darkskyblue);
+}
+
+
+.figure__img{   
+    background-image: url(./assets/svg/square-solid.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 231px;
+    height: 30px;
+    margin: 13px 34px;
+    padding-top: 30px;
+    position: absolute;
+}
+
+
+
+.figure__img-circle{
+    background-image: url(./assets/svg/circle-solid.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 231px;
+    height: 30px;
+    margin: 13px 34px;
+    padding-top: 30px;
+    position: absolute;
+}
+
+.figure__img-triangle{
+    background-image: url(./assets/svg/triangle-abstract.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 231px;
+    height: 30px;
+    margin: 13px 34px;
+    padding-top: 30px;
+    position: absolute;
+}
+
+.figure-description{
+    color: var(--steelteal);
+    font-size: medium;
+    font-weight: 600;
+    position: relative;
+    margin: 13px 98px;
+    margin-top: 50px;
+    padding: 5px 22px;
+}
+
+.figure-container-options{
+    background-color: var(--mountainmeadow);
+    display: inline-flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    width: 311px;
+    height: 50px;
+    padding: 17px 40px;
+    border-style: hidden;
+}
+
+
+
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylosfiguras.css">
+
+
+    <!-- font-styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200&family=Tiro+Gurmukhi:ital@1&display=swap"
+    rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="nav-container">
+
+        <header class="Header">
+            <h1 class="Header-title">FIGURAS GEOMETRICAS</h1>
+            <p class="Header-description">para su uso diario.</p>
+        </header>
+    
+        <section class="figure">
+            <div class="figure-container">
+                <div class="figure__img"></div>
+                <h2 class="figure-title">CUADRADO</h2>
+    
+                    <label for="" class="figure-description">escribe cuanto mide el cuadrado</label>
+                    <input type="number" id="InputCuadrado" placeholder="digita un numero. ejemplo: 2" />
+                    <div class="figure-container-options">
+                        <button type="button" class="figure-container_buttons" onclick="Calcularperimetrocuadrado()">
+                            Calcular el perimetro</button>
+                        <button type="button" class="figure-container_buttons" onclick="Calcularareacuadrado()">Calcular el
+                            area</button>
+                    </div>
+    
+            </div>
+    
+    
+            <section class="figure">
+                <div class="figure-container">
+                    <div class="figure__img-circle"></div>
+                    <h2 class="figure-title">CIRCULO</h2>
+        
+                        <label for="" class="figure-description">escribe cuanto mide el circulo</label>
+                        <input type="number" id="InputCirculo" placeholder="digita un numero. ejemplo: 2" />
+                        <div class="figure-container-options">
+                            <button type="button" class="figure-container_buttons" onclick="CalcularPerimetroCirculo()">
+                                Calcular el perimetro</button>
+                            <button type="button" class="figure-container_buttons" onclick="CalcularAreacirculo()">Calcular el
+                                area</button>
+                        </div>
+        
+                </div>
+    
+    
+            <section class="figure">
+                <div class="figure-container">
+                    <div class="figure__img-triangle"></div>
+                    <h2 class="figure-title">TRIANGULO</h2>
+        
+                        <label for="" class="figure-description">escribe cuanto mide el triangulo</label>
+                        <input type="number" id="InputLadoTriangulo1" placeholder="digita el lado 1. ejemplo: 2" />
+                        <input type="number" id="InputLadoTriangulo2" placeholder="digita el lado 2. ejemplo: 2" />
+                        <input type="number" id="InputBaseTriangulo" placeholder="digita la base. ejemplo: 2" />
+    
+                        <div class="figure-container-options">
+                            <button type="button" class="figure-container_buttons" onclick="Calcularperimetrotriangulo()">
+                                Calcular el perimetro</button>
+                            <button type="button" class="figure-container_buttons" onclick="Calcularareatriangulo()">Calcular el
+                                area</button>
+                        </div>
+        
+                </div>
+        
+            <!-- <i class="fa-solid fa-triangle"></i> -->
+        
+        
+        </section>
+    </nav>
+    
+
+
+    <script src="./figura.js"></script>
+</body>
+
+</html>
